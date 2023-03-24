@@ -1,0 +1,16 @@
+{
+    "powers": [
+        "custom_races:curse_of_flight.json",
+        "custom_races:feather_foot.json",
+        "custom_races:flight.json",
+        "custom_races:glowing_disposition.json",
+        "custom_races:soaked.json"
+    ],
+    "icon": {
+        "item": "minecraft:lilac"
+    },
+    "order": 9,
+    "impact": 2,
+    "name": "Pixie",
+    "description": "Agents of mischief, or harbingers of good fortune? Who ever said you can't be both!."
+}

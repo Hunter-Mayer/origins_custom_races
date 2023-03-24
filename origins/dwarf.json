@@ -1,0 +1,16 @@
+{
+    "powers": [
+        "custom_races:bugmans_brew.json",
+        "custom_races:darkvision.json",
+        "custom_races:dense.json",
+        "custom_races:dwarven_mining.json",
+        "custom_races:sun_sensitivity.json"
+    ],
+    "icon": {
+        "item": "minecraft:diamond_pickaxe"
+    },
+    "order": 7,
+    "impact": 2,
+    "name": "Dwarf",
+    "description": "Dwarves are short humanoids who live underground. They excel in mining, but have issues seeing above ground."
+}

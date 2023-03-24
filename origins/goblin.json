@@ -1,0 +1,17 @@
+{
+    "powers": [
+        "custom_races:cunning.json",
+        "custom_races:darkvision.json",
+        "custom_races:frail.json",
+        "custom_races:gilded_green.json",
+        "custom_races:nippy.json",
+        "custom_races:fury_of_the_small.json"
+    ],
+    "icon": {
+        "item": "minecraft:golden_sword"
+    },
+    "order": 8,
+    "impact": 3,
+    "name": "Goblin",
+    "description": "Conniving and greedy, goblins excel in one-on-one combat and gain more loot from any mobs that they kill, although their small health becomes an issue against most foes."
+}
