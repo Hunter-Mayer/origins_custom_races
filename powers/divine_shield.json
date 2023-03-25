@@ -1,0 +1,22 @@
+{
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:apply_effect",
+		"effect": {
+			"effect": "minecraft:resistance",
+			"is_ambient": true,
+			"show_particles": true,
+			"show_icon": false,
+			"amplifier": 5,
+			"duration": 400
+		}
+	},
+	"cooldown": 2000,
+	"key": {
+		"key": "key.origins.primary_active",
+		"continuous": false
+	},
+	"hud_render": {
+		"should_render": "true"
+	}
+}

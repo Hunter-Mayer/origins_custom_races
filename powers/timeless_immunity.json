@@ -1,0 +1,9 @@
+{
+    "type": "origins:effect_immunity",
+    "effects": [
+        "minecraft:weakness",
+        "minecraft:poison",
+        "minecraft:fire",
+        "minecraft:wither"
+    ]
+}

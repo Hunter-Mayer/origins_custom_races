@@ -1,0 +1,18 @@
+{
+    "powers": [
+        "custom_races:holy_fire.json",
+        "custom_races:divine_shield.json",
+        "custom_races:hearty_appetite.json",
+        "custom_races:heavily_armored.json",
+        "custom_races:sacred_mount"
+
+
+    ],
+    "icon": {
+        "item": "minecraft:golden_horse_armor"
+    },
+    "order": 10,
+    "impact": 3,
+    "name": "Paladin",
+    "description": "Powerful defenders of humankind, Paladins are strong against undead but slowed by heavy armor."
+}

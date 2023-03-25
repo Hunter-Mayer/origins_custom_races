@@ -1,0 +1,78 @@
+{
+	"type": "origins:multiple",
+	"bow_useless": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": [
+                    "minecraft:bows",
+                    "minecraft:crossbows"
+                ]
+            }
+        }
+    },
+    "heavy_armor": {
+        "type":"origins:action_over_time",
+            "entity_action":{
+                "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:slowness",
+                        "duration": 99999,
+                        "is_ambient": true,
+                        "show_particles": false,
+                        "amplifier": 0,
+                        "show_icon": false
+                    }
+            },
+            "interval": 20
+    },
+	"armor_helmet_boost": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.armor",
+			"operation": "add_base_early",
+			"value": 1
+		},
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "head"
+		}
+	},
+	"armor_chestplate_boost": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.armor",
+			"operation": "add_base_early",
+			"value": 1
+		},
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "chest"
+		}
+	},
+	"armor_leggings_boost": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.armor",
+			"operation": "add_base_early",
+			"value": 1
+		},
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "legs"
+		}
+	},
+	"armor_boots_boost": {
+		"type": "origins:conditioned_attribute",
+		"modifier": {
+			"attribute": "minecraft:generic.armor",
+			"operation": "add_base_early",
+			"value": 1
+		},
+		"condition": {
+			"type": "origins:equipped_item",
+			"equipment_slot": "feet"
+		}
+	}
+}
