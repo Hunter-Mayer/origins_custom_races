@@ -1,0 +1,12 @@
+{
+    "name": "Fresh Air",
+    "description": "You need to sleep high to get used to being in high altitude.",
+    "type": "origins:prevent_sleep",
+    "block_condition":
+    {
+        "type": "origins:height",
+        "comparison": "<=",
+        "compare_to": 80
+    },
+    "message": "The air is too thick here. Your bed needs to be at Y80 minimum."
+}

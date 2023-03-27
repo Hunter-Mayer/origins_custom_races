@@ -1,0 +1,20 @@
+{
+    "type": "origins:active_self",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "function thunderborne:start_ray",
+      "permission_level": 4
+    },
+    "cooldown": 200,
+    "hud_render": {
+      "should_render": true,
+      "bar_index": 2
+    },
+    "key": {
+      "key": "key.origins.primary_active"
+    },
+    "hidden": false,
+    "name": "Lightning Dash",
+      "description":"(Primary)-You throw a bolt of lightning which sends you to the location where it lands."
+  }
+  

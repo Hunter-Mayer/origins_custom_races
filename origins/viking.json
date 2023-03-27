@@ -1,0 +1,19 @@
+{
+    "powers": [
+        "custom_races:call_of_thor.json",
+        "custom_races:fresh_air.json",
+        "custom_races:lightly_armored.json",
+        "custom_races:storm_bringer.json",
+        "custom_races:storm_caller.json",
+        "custom_races:thunderborn.json",
+        "custom_races:weak_point.json"
+
+    ],
+    "icon": {
+        "item": "minecraft:minecraft:iron_axe"
+    },
+    "order": 9,
+    "impact": 2,
+    "name": "Viking",
+    "description": "Gods of war and thunder, vikings harness the power of storms to strike enemies but are weak to projectiles."
+}
